@@ -1,7 +1,6 @@
 import SearchBox from '../components/SearchBox'
 import CryptoList from '../components/CryptoList'
 import React, { useEffect, useState } from 'react'
-import '../styles/globals.css'
 const MarketPlace = () => {
 
   let [cryptos, setCryptos] = useState([])
